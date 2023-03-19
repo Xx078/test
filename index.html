@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>音乐播放器</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>	
+	<script src="js/data.js"></script>
+	<script src="js/music.js"></script>
+	<body>	
+		<div id="zhuyemian">
+			<div id="fengmian">
+				<img src="img/gptp01.jpg" id="fengmiantupian">
+				<div id="guangpan"></div>
+			</div>	
+			<div id="mingzi1"><p id="mingzi">江南</p></div>
+			<div id="ci">
+				<ul id="geci">
+						
+				</ul>
+			</div>
+			<div id="kongzhilan">
+				<audio src="" id="music" >
+					当前浏览器不支持audio
+				</audio>
+				<div class="qiege shang" id="front"></div>
+				<div id="bofang"></div>
+				<div class="qiege xia" id="next"></div>
+
+				<input type="range" name="" id="jindutiao" min="0">
+				<div id="time">
+					<span id="span-current-time">00:00</span> /
+					<span id="span-duration"></span>
+				</div>
+				<div id="xunhuan"></div>
+				<div id="yinliang">
+					<div id="yinliangtiao">
+						<input type="range" name="" id="volume-range" min="0" max="1" step="0.05">
+					</div>
+				</div>
+				<div id="qiehuan"></div>
+			</div>
+			<div id="mv"></div>
+		</div>
+		
+		<div class="song-list-contrainer">
+			<ul class="song-list">
+
+			</ul>
+		</div>
+	</body>
+</html>
